@@ -14,14 +14,13 @@ public class test extends BaseUITest1 {
 
     @org.junit.Test
     public void test1() {
-        String user = "clinicasierravista";
 
         driver.get("https://staging.pointcare.com");
         System.out.println("Enter Domain Name");
         setText1(LoginPage.txtDomainName,user);
         click(LoginPage.btnContinue);
         System.out.println("Enter User Name");
-        setText1(LoginPage.txtUserName, "productadmin@pointcare.com");
+        setText1(LoginPage.txtUserName, "");
        // WebDriver driver = new ChromeDriver();
         //driver.get("https://staging.pointcare.com");
         //driver.findElement(By.cssSelector("#domain")).sendKeys("clinicasierravista");
