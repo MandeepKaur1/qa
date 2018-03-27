@@ -13,15 +13,13 @@ import java.util.Iterator;
 import java.util.List;
 import java.util.Set;
 import java.util.concurrent.TimeUnit;
-
 import static jxl.biff.FormatRecord.logger;
 
 
 /**
  * The regression.com.test.BaseUITest class is the main class for all UI test scripts.
  */
-public class BaseUITest {
-    static WebDriver driver;
+public class BaseUITest extends StartUITest{
     private final static int TIME_FOR_WAITING_SECONDS = 60;
 
 
