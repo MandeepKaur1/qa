@@ -2,6 +2,10 @@ package regression.com.pages;
 
 import org.openqa.selenium.By;
 
+
+/**
+ * Created by mandeep.
+ */
 public class LoginPage {
     public static final By txtDomainName = By.cssSelector("#domain");
     public static final By btnContinue = By.cssSelector("#__next > div > div > div.content > div.content-center > div > div > div.form > form > span:nth-child(2) > button");
